@@ -29,13 +29,13 @@ class List:
 
     def clone_random_links(self):
 
-        while self.original_node.data!= None:
+        while True:
             List.clone_node.random=self.original_node.random
             if self.original_node.next == None:
                 break
             else:
                 self.original_node=self.original_node.next
 
-    
+
 
 
